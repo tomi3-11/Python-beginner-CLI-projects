@@ -1,11 +1,11 @@
-Python Command Line Interface Projects.
+# Python Command Line Interface Projects.
 
 Welcome to the Python-beginner-CLI-projects repository!
 This collection contains several mini command-line Python projects across different topics.
 Feel free to use them to practice and master various Python concepts.
 
-Projects.
-1. Todo List App
+# Projects.
+# 1. Todo List App
 A simple task manager you can use in your terminal.
 
 Features:
@@ -16,7 +16,7 @@ Features:
 
 	iii. Delete Task — Remove a specific task from your list.
 
-2. Note-Taking App
+# 2. Note-Taking App
 A lightweight CLI notes application using Python's file handling techniques.
 
 Features:
@@ -32,34 +32,36 @@ Features:
 	v. Exit — Close the application safely.
 
 
-How to Use.
+# How to Use.
 
-1. Clone the repository:
+# 1. Clone the repository:
 
 
 Copy code
 
 git clone https://github.com/tomi3-11/Python-beginner-CLI-projects.git
 
-2. Navigate to the project folder:
+# 2. Navigate to the project folder:
 
 cd Python-beginner-CLI-projects
 
-3. Run any project:
+# 3. Run any project:
 
 python filename.py  e.g todo.py
-# or
+
+or
+
 python notes_app.py
 
 
-Contributions
+# Contributions
 Contributions, ideas, and improvements are welcome!
 Feel free to open issues or submit pull requests.
 
 
-Acknowledgements.
+# Acknowledgements.
 Built with love for learning and practicing Python ❤️
 
 Inspired by the idea of mastering Python through small, focused projects.
 
-✨ Happy Coding!
+# ✨ Happy Coding!
