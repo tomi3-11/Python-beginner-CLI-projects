@@ -36,18 +36,17 @@ How to Use.
 
 1. Clone the repository:
 
-bash
+
 Copy code
+
 git clone https://github.com/tomi3-11/Python-beginner-CLI-projects.git
 
 2. Navigate to the project folder:
 
-bash
 cd Python-beginner-CLI-projects
 
 3. Run any project:
 
-bash
 python filename.py  e.g todo.py
 # or
 python notes_app.py
