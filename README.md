@@ -38,8 +38,6 @@ Features:
 
 Copy code
 
-```Bash git clone https://github.com/tomi3-11/Python-beginner-CLI-projects.git```
-
 	git clone https://github.com/tomi3-11/Python-beginner-CLI-projects.git
 
 # 2. Navigate to the project folder:
