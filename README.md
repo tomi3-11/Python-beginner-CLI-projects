@@ -48,7 +48,7 @@ Copy code
 
 # 3. Run any project:
 
-	python filename.py  e.g todo.py
+	python filename.py  e.g todo_list.py
 
 # Contributions
 Contributions, ideas, and improvements are welcome!
