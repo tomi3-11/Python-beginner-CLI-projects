@@ -36,23 +36,19 @@ Features:
 
 # 1. Clone the repository:
 
+bash
 
 Copy code
 
-git clone https://github.com/tomi3-11/Python-beginner-CLI-projects.git
+	git clone https://github.com/tomi3-11/Python-beginner-CLI-projects.git
 
 # 2. Navigate to the project folder:
 
-cd Python-beginner-CLI-projects
+	cd Python-beginner-CLI-projects
 
 # 3. Run any project:
 
-python filename.py  e.g todo.py
-
-or
-
-python notes_app.py
-
+	python filename.py  e.g todo.py
 
 # Contributions
 Contributions, ideas, and improvements are welcome!
