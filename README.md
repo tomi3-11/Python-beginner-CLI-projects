@@ -31,8 +31,29 @@ Features:
 
 	v. Exit — Close the application safely.
 
+# 3. Calculator App and it's Unittest.
+A Simple Object Oriented style calculator, that accepts five operations and user inputs.
 
-# How to Use.
+Features:
+
+	i. Addition: Accepts and adds to numbers
+
+	ii. Subtraction: Accepts and subtracts to numbers
+
+	iii. Multiplication: Accepts and multiplies to numbers
+
+	iv. Division: Accepts and divides to numbers
+
+	v. Exponential: Accepts the first number as the base and the second number as index(power)
+
+	vi. User Inputs: Accepts two numbers and an operants. ('+', '-', '*', '/').
+
+	vii. Coming Soon!
+
+
+
+
+# HOW TO USE THIS REPOSITORY.
 
 # 1. Clone the repository:
 
@@ -59,3 +80,5 @@ Built with love for learning and practicing Python ❤️
 Inspired by the idea of mastering Python through small, focused projects.
 
 # ✨ Happy Coding!
+
+# ©2025
