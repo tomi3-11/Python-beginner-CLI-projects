@@ -50,7 +50,7 @@ Features:
 
 	vii. Coming Soon!
 
-
+# 4. Coming Soon!!!
 
 
 # HOW TO USE THIS REPOSITORY.
@@ -67,7 +67,7 @@ Copy code
 
 # 3. Run any project:
 
-	python filename.py  e.g todo_list.py
+	python filename.py  (e.g todo_list.py)
 
 # Contributions
 Contributions, ideas, and improvements are welcome!
