@@ -16,6 +16,8 @@ Features:
 
 	iii. Delete Task — Remove a specific task from your list.
 
+	iv. Completed Task — Marks a specific task as completed from the list (✔).
+
 # 2. Note-Taking App
 A lightweight CLI notes application using Python's file handling techniques.
 
