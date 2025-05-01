@@ -83,4 +83,3 @@ Inspired by the idea of mastering Python through small, focused projects.
 
 # ✨ Happy Coding!
 
-# ©2025
