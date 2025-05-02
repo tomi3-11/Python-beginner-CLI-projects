@@ -19,7 +19,7 @@ Features:
 	iv. Completed Task — Marks a specific task as completed from the list (✔).
 
 # 2. Note-Taking App
-A lightweight CLI notes application using Python's file handling techniques.
+A lightweight CLI notes application using Python's file handling techniques(Local Storage).
 
 Features:
 
@@ -32,6 +32,8 @@ Features:
 	iv. Delete All Notes — Clear all notes from the file.
 
 	v. Exit — Close the application safely.
+
+	vi. Save - Saves the tasks added to the list to a file specified by a user.
 
 # 3. Calculator App and it's Unittest.
 A Simple Object Oriented style calculator, that accepts five operations and user inputs.

@@ -5,7 +5,7 @@ def main():
     """Initializing the main function to handle user inputs and other function
         operations. """
     while True:
-        print("1. Add | 2. View | 3. Remove | 4. Completed |")
+        print("| 1. Add | 2. View | 3. Remove | 4. Completed | 5. Save |")
         option = input("Enter choice: ")
 
         # Evaluating user options
@@ -18,6 +18,8 @@ def main():
             remove_task()
         elif option == "4":
             completed_task()
+        elif option == '5':
+            save_task()
         else:
             return "Invalid Input."
         
@@ -92,6 +94,29 @@ def completed_task():
         print(f"Marked as completed: {tasks[index-1]['task']}")
     else:
         print("Invalid task number.")
+
+
+def save_task():
+    """Saves a file suggested by a user with all the tasks added"""
+    # Checking whether there are tasks
+    if not tasks:
+        return
+
+    # Prompting a user for a file name to save the tasks
+    FILENAME = input("Enter a file name with \".txt\" (file.txt): ")
+    # Writing all the tasks to the file added by the user
+    with open(FILENAME, 'w') as file:
+        file.write("To-do List.\n")
+        for i, task in enumerate(tasks, start=1):
+            # formatting the contents in the file as a nicely-formatted list.
+            file.write(f"{i}. {task['task']}\n")
+
+    # Notifying the user about the saving action done.
+    print(f"Task saved to {FILENAME} succesfully!")
+
+
+def load_task():# COMING SOON...
+    ...
     
 
 if __name__ == "__main__":
