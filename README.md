@@ -53,8 +53,20 @@ Features:
 	vi. User Inputs: Accepts two numbers and an operants. ('+', '-', '*', '/').
 
 	vii. Coming Soon!
+	
+# 4. Temperature Converter
+This is a simple program that allows a user to input a temperature and have a choice 
+of converting it to either celsius or fahrenheit.
 
-# 4. Coming Soon!!!
+Features
+
+	i. Accepts user inputs for a temperature.
+	
+	ii. User conversion Choice: Asks the user for a choice to convert (celsius or fahrenheit).
+	
+	iii. Converts the temperature and displays a clean result.
+
+# 5. Coming Soon!!!
 
 
 # HOW TO USE THIS REPOSITORY.
