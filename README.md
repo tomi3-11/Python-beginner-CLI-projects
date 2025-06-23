@@ -10,49 +10,51 @@ A simple task manager you can use in your terminal.
 
 Features:
 
-	i. Create Task — Add new tasks to your list.
+- Create Task — Add new tasks to your list.
 
-	ii. View Tasks — Display all current tasks.
+- View Tasks — Display all current tasks.
 
-	iii. Delete Task — Remove a specific task from your list.
+- Delete Task — Remove a specific task from your list.
 
-	iv. Completed Task — Marks a specific task as completed from the list (✔).
+- Completed Task — Marks a specific task as completed from the list (✔).
+
+- Save tasks — Saves tasks in a file specified by the user in (.txt)
 
 # 2. Note-Taking App
 A lightweight CLI notes application using Python's file handling techniques(Local Storage).
 
 Features:
 
-	i. Write Notes — Write new notes (overwrites previous content).
+- Write Notes — Write new notes (overwrites previous content).
 
-	ii. Append Notes — Add new notes without deleting existing ones.
+- Append Notes — Add new notes without deleting existing ones.
 
-	iii. Read Notes — View all saved notes.
+- Read Notes — View all saved notes.
 
-	iv. Delete All Notes — Clear all notes from the file.
+- Delete All Notes — Clear all notes from the file.
 
-	v. Exit — Close the application safely.
+- Exit — Close the application safely.
 
-	vi. Save - Saves the tasks added to the list to a file specified by a user.
+- Save - Saves the tasks added to the list to a file specified by a user.
 
 # 3. Calculator App and it's Unittest.
 A Simple Object Oriented style calculator, that accepts five operations and user inputs.
 
 Features:
 
-	i. Addition: Accepts and adds to numbers
+- Addition: Accepts and adds to numbers
 
-	ii. Subtraction: Accepts and subtracts to numbers
+- Subtraction: Accepts and subtracts to numbers
 
-	iii. Multiplication: Accepts and multiplies to numbers
+- Multiplication: Accepts and multiplies to numbers
 
-	iv. Division: Accepts and divides to numbers
+- Division: Accepts and divides to numbers
 
-	v. Exponential: Accepts the first number as the base and the second number as index(power)
+- Exponential: Accepts the first number as the base and the second number as index(power)
 
-	vi. User Inputs: Accepts two numbers and an operants. ('+', '-', '*', '/').
+- User Inputs: Accepts two numbers and an operants. ('+', '-', '*', '/').
 
-	vii. Coming Soon!
+- Coming Soon!
 	
 # 4. Temperature Converter
 This is a simple program that allows a user to input a temperature and have a choice 
@@ -60,11 +62,11 @@ of converting it to either celsius or fahrenheit.
 
 Features
 
-	i. Accepts user inputs for a temperature.
+- Accepts user inputs for a temperature.
 	
-	ii. User conversion Choice: Asks the user for a choice to convert (celsius or fahrenheit).
+- User conversion Choice: Asks the user for a choice to convert (celsius or fahrenheit).
 	
-	iii. Converts the temperature and displays a clean result.
+- Converts the temperature and displays a clean result.
 
 # 5. Registration System
 This is a command Line registration system that allows user to add their first name, last name and email
@@ -73,12 +75,27 @@ in a table-like format.
 
 Features
 
-	i. Prompts user for;
-	- First Name
-	- Last Name
-	- Email
+- Prompts user for;
+	1. First Name
+	2. Last Name
+	3. Email
 
-	ii. Then displays their information in a table.
+- Then displays their information in a table.
+
+# 6. Number Guessing game
+```
+Details coming soon!!!
+```
+
+# 7. Bank system
+```
+Details coming soon!!!
+```
+
+# 8. Zig-zag Builder
+```
+Details coming soon!!!
+```
 
 # 6. Coming Soon!!!
 
