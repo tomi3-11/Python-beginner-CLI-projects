@@ -35,7 +35,7 @@ Features:
 
 - Exit — Close the application safely.
 
-- Save - Saves the tasks added to the list to a file specified by a user.
+- Save - Saves the notes added to a file specified by a user.
 
 # 3. Calculator App and it's Unittest.
 A Simple Object Oriented style calculator, that accepts five operations and user inputs.
@@ -96,8 +96,16 @@ Details coming soon!!!
 ```
 Details coming soon!!!
 ```
+# 9. Library Management System
+```
+Details coming soon!!!
+```
+# 10. Quiz System (MCQs)
+```
+Details coming soon!!!
+```
 
-# 6. Coming Soon!!!
+# 11. Coming Soon!!!
 
 
 # HOW TO USE THIS REPOSITORY.
