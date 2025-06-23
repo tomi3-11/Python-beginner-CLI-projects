@@ -66,7 +66,21 @@ Features
 	
 	iii. Converts the temperature and displays a clean result.
 
-# 5. Coming Soon!!!
+# 5. Registration System
+This is a command Line registration system that allows user to add their first name, last name and email
+the are prompted to add another user, then after the information of all users are display 
+in a table-like format.
+
+Features
+
+	i. Prompts user for;
+	- First Name
+	- Last Name
+	- Email
+
+	ii. Then displays their information in a table.
+
+# 6. Coming Soon!!!
 
 
 # HOW TO USE THIS REPOSITORY.
