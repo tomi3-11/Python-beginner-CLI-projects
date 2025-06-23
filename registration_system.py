@@ -38,7 +38,7 @@ def details_table(users):
     # Looping through each of the item in the users list. (first name, last name, email)
     for first_name, last_name, email in users:
         # Formating their display wuith fixed-width column
-        row = f"| {first_name:<12} | {last_name:<12} | {email:<30} |"
+        row = f"| {first_name.title():<12} | {last_name.title():<12} | {email:<30} |"
         print(row)
 
 
