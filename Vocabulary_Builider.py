@@ -24,4 +24,11 @@ class VacabularyBuilder:
         return defaultdict(lambda: {"correct": 0, "attempt": 0})
     
     def save_words(self):
+        with open(self.words_file, 'w') as f:
+            json.dump(self.words, f, indent=2)
+            
+    def save_stats(self):
+        pass
+    
+    def add_word(self):
         pass
