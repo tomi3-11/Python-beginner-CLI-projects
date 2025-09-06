@@ -28,7 +28,8 @@ class VacabularyBuilder:
             json.dump(self.words, f, indent=2)
             
     def save_stats(self):
-        pass
+        with open(self.stats_file, 'w') as f:
+            json.dump(dict(self.stats), f, indent=2)
     
     def add_word(self):
         pass
