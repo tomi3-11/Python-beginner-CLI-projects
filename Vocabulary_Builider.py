@@ -31,5 +31,6 @@ class VacabularyBuilder:
         with open(self.stats_file, 'w') as f:
             json.dump(dict(self.stats), f, indent=2)
     
+    # Adding a new word
     def add_word(self):
         pass
