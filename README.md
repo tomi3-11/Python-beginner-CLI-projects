@@ -104,8 +104,18 @@ Details coming soon!!!
 ```
 Details coming soon!!!
 ```
+# 11. Password Generator
+This program prompts the user for a password length, the the choices of password character i.e. strings, letters, special characters(punctuations & symbols) and then generates the characters at random. 
 
-# 11. Coming Soon!!!
+Features
+- Prompts the user for 
+	- Password Length.
+	- Characters choice
+
+- Generates the password at random.
+- Saves the password to a text file (.txt)
+
+# 12. Coming Soon!!!
 
 
 # HOW TO USE THIS REPOSITORY.
@@ -113,16 +123,19 @@ Details coming soon!!!
 # 1. Clone the repository:
 
 Copy code
-
-	git clone https://github.com/tomi3-11/Python-beginner-CLI-projects.git
+```bash
+git clone https://github.com/tomi3-11/Python-beginner-CLI-projects.git
+```
 
 # 2. Navigate to the project folder:
-
-	cd Python-beginner-CLI-projects
+```bash
+cd Python-beginner-CLI-projects
+```
 
 # 3. Run any project:
-
-	python filename.py  (e.g todo_list.py)
+```bash
+python filename.py  # (e.g todo_list.py)
+```
 
 # Contributions
 Contributions, ideas, and improvements are welcome!
