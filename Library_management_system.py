@@ -11,11 +11,11 @@ def main():
 
     while True:
         display_menu()
-        choice = input("Enter your Choice (1 - 8): ")
+        choice = int(input("Enter your Choice (1 - 8): "))
 
-        if choice == "1":
+        if choice == 1:
             display_books(books, "All books in the Library")
-        elif choice == "2":
+        elif choice == 2:
             available = [book for book in books['available']]
             display_books(available, "Available Books")
         elif choice == "3":
@@ -140,6 +140,15 @@ def get_overdue_books():
             overdue.append(book)
     return overdue
 
+"""
+Enhancement:
+1. Notify User if due_date passed.
+2. User credentials should include their email.
+
+
+
+"""
+
 
 def display_menu():
     """Display the main menu."""
@@ -166,3 +175,14 @@ def setup_sample_data():
 
 if __name__ == "__main__":
     main()
+    
+    
+    
+"""
+Bugs to Fix
+1. Date time.
+2. Status.
+3. program crashes.
+
+
+"""
