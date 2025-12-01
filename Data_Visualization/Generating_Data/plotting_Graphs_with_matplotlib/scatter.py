@@ -11,10 +11,11 @@ def main():
 def scatter():
     """Function that handles the scatter plot"""
     #squares = [2, 4]
-
+    # Gettin the values
     x_values = range(1, 1001)
     y_values = [x**2 for x in x_values]
 
+    # Plot the values to a scatter plot suing the scatter function. with colors, size, colormap.
     #plt.scatter(x_values, y_values, edgecolor='none', c=(0,0,0.8), s=20)
     plt.scatter(x_values, y_values, edgecolor='none', c=y_values, s=20, cmap=plt.cm.Blues)
 
@@ -29,6 +30,7 @@ def scatter():
     # Set the axis range
     plt.axis([0, 1100, 0, 1100000])
 
+    # Save the scatter plot to an image.
     plt.savefig('scatter_plot.png', bbox_inches='tight')
 
     # Showing the graph
