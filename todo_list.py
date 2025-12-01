@@ -1,3 +1,5 @@
+import os
+
 # Creating an empty list to store tasks added by a user.
 tasks = []
 
@@ -5,7 +7,7 @@ def main():
     """Initializing the main function to handle user inputs and other function
         operations. """
     while True:
-        print("| 1. Add | 2. View | 3. Remove | 4. Completed | 5. Save |")
+        print("| 1. Add | 2. View | 3. Remove | 4. Completed | 5. Save | 6. Load |")
         option = input("Enter choice: ")
 
         # Evaluating user options
@@ -20,6 +22,8 @@ def main():
             completed_task()
         elif option == '5':
             save_task()
+        elif option == '6':
+            load_task()
         else:
             return "Invalid Input."
         
@@ -115,8 +119,25 @@ def save_task():
     print(f"Task saved to {FILENAME} succesfully!")
 
 
-def load_task():# COMING SOON...
-    ...
+def load_task():
+    # Checking whether there are tasks
+    #if not tasks:
+		#return
+		
+	# Prompting a user for a file name to load.
+	File_name = input("Enter a file name to load ( \".txt\" ): ")
+	# Checking if file is available. 
+	if not os.path.exists("File_name"):
+		print("File not found.")
+		return 
+	
+	with open(File_name, 'r') as file:
+		todos = file.readlines()
+		print("====== Todo List ======")
+		for todo in todos:
+			print(todo.strip())
+		
+	
     
 
 if __name__ == "__main__":
