@@ -10,8 +10,10 @@ class ColorMapCube:
         input_values = range(1, 5001)
         cubes_values = [x**3 for x in input_values]
 
+        cmp = plt.cm.Blues
+
         # Calling the scatter function that handles the plotting of the graphs
-        plt.scatter(input_values, cubes_values, edgecolor='none', s=20)
+        plt.scatter(input_values, cubes_values, c=cubes_values, cmap=cmp, edgecolor='none', s=20)
 
         # Setting the title and lables of axes
         plt.title("Cubes of Numbers", fontsize=16)
