@@ -16,12 +16,15 @@ class PlaneCubes:
         cubes_values = [x**3 for x in input_values ]
 
         # Calling the scatter() function that handles the plotting of the values
-        plt.scatter(input_values, cubes_values, s=40)
+        plt.scatter(input_values, cubes_values, s=40, edgecolor='none')
 
         # Scatter Plot titles and labels
         plt.title("Cubes of Numbers", fontsize=16)
         plt.xlabel("Values", fontsize=14)
         plt.ylabel("Cubes of the values", fontsize=14)
+
+        # Save the graph plotted
+        plt.savefig('try_it_yourself1.png', bbox_inches='tight')
 
         # Calling the function to show the graph
         plt.show()
