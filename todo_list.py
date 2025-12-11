@@ -120,25 +120,33 @@ def save_task():
 
 
 def load_task():
-    # Checking whether there are tasks
-    #if not tasks:
-		#return
-		
-	# Prompting a user for a file name to load.
-	File_name = input("Enter a file name to load ( \".txt\" ): ")
-	# Checking if file is available. 
-	if not os.path.exists("File_name"):
-		print("File not found.")
-		return 
-	
-	with open(File_name, 'r') as file:
-		todos = file.readlines()
-		print("====== Todo List ======")
-		for todo in todos:
-			print(todo.strip())
-		
-	
-    
+    # Prompt a user for a file name to load.
+    file_name = input('Enter a file name to load ( ".txt" ): ')
 
+    # Check if file exists
+    if not os.path.exists(file_name):
+        print(f"{file_name} not found.")
+        print(f"Current Directory: {os.getcwd()}")
+        return
+
+    # Ensure it's a file (not a directory)
+    if not os.path.isfile(file_name):
+        print(f"Error: '{file_name}' is not a file.")
+        return
+
+    try:
+        with open(file_name, 'r') as file:
+            todos = file.readlines()
+            if not todos:
+                print("File is empty")
+                return
+
+            print("====== Todo List ======")
+            for todo in todos:
+                print(todo.strip())
+
+    except IOError as e:
+        print(f"Error reading file: {e}")
+    
 if __name__ == "__main__":
     main()
