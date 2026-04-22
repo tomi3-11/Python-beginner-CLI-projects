@@ -3,6 +3,8 @@
 Welcome to the **Python CLI Projects** repository!
 This collection is designed to teach **all Python concepts** from beginner to advanced levels by building **60+ CLI projects**. Projects are grouped by the **concepts they teach**, so you can learn Python fundamentals **through practice**.
 
+> Note: Find every project in each folder respectively, and when making contribution must in the respective dir.
+
 ---
 
 ## **1. Variables, Data Types, and Basic I/O (Beginner)**
