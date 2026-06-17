@@ -1,3 +1,18 @@
+class CLICalculator:
+    def __init__(self, num1, num2, operator):
+        self.num1 = num1
+        self.num2 = num2
+        self.operator = operator
+
+    def add(self):
+        """Add two numbers and return the result."""
+        result = self.num1 + self.num2
+        return f"The sum of {self.num1} and {self.num2} is {result}."
+
+    def subtract(self) -> str:
+        """Subtract two numbers and return the result."""
+        result = self.num1 - self.num2
+        return f"The difference btn {self.num1} and {self.num2} is {result}."
 
 def main():
     #ans1 = add(4, 5)
@@ -30,7 +45,7 @@ def main():
             else:
                 print("Invalid operation")
 
-            continue_cal = input("Do you want to continue? (y/n)").lower()
+            continue_cal = input("Do you want to continue? (y/n) ").lower()
             if continue_cal != "y":
                 print("Exiting cal")
                 break
