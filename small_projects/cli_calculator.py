@@ -11,7 +11,7 @@ def main():
 
     #ans4 = divide(5, 2)
     #print(f"The divide result is {ans4}")
-
+    continuous_menu()
 
     while True:
         try:
@@ -58,6 +58,24 @@ def multiply(num1: int, num2: int) -> int:
 
 def divide(num1: int, num2: int) -> int:
     return num1 / num2
+
+
+def continuous_menu():
+    """A menu for continuous selction."""
+
+    menu = """
+    Welcome to the CLI Computer.
+
+    Here are the accepted operations:
+    1. Addition
+    2. Subraction
+    3. Multiply
+    4. Divide
+
+    Datatype: int
+    """
+
+    print(menu)
 
 
 if __name__ == "__main__":
