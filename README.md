@@ -1,4 +1,5 @@
 # Python CLI Projects by Concept
+![GitHub repo size](https://img.shields.io/github/repo-size/tomi3-11/Python-beginner-CLI-projects)
 
 Welcome to the **Python CLI Projects** repository!
 This collection is designed to teach **all Python concepts** from beginner to advanced levels by building **60+ CLI projects**. Projects are grouped by the **concepts they teach**, so you can learn Python fundamentals **through practice**.
