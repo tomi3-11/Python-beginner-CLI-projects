@@ -30,8 +30,8 @@ def main():
 
     while True:
         try:
-            num1 = int(input("Enter the first name: "))
-            num2 = int(input("Enter the first name: "))
+            num1 = int(input("Enter the first number: "))
+            num2 = int(input("Enter the first second: "))
             operator = input("Enter a valid operator (+, -, /, *): ")
 
             if operator == "+":
