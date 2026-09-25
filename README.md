@@ -1,144 +1,198 @@
 # Python CLI Projects by Concept
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/tomi3-11/Python-beginner-CLI-projects)
 
 Welcome to the **Python CLI Projects** repository!
-This collection is designed to teach **all Python concepts** from beginner to advanced levels by building **60+ CLI projects**. Projects are grouped by the **concepts they teach**, so you can learn Python fundamentals **through practice**.
 
-> Note: Find every project in each folder respectively, and when making contribution must in the respective dir.
+This collection is designed to help you learn and practice **Python programming concepts** through small, practical projects. Projects are grouped by the **concepts they teach**, with each project assigned a **Level from 1–5** based on its overall difficulty.
 
----
+The repository is primarily focused on **learning Python through practice**, starting with simple CLI programs and gradually moving toward more structured applications, file handling, APIs, algorithms, and problem-solving.
 
-## **1. Variables, Data Types, and Basic I/O (Beginner)**
-
-These projects focus on understanding Python variables, numbers, strings, lists, dictionaries, sets, and user input.
-
-| #  | Project Name           | Description                        | Concepts Covered                        | Status        |
-| -- | ---------------------- | ---------------------------------- | --------------------------------------- | ------------- |
-| 1  | Todo List App          | Manage tasks in terminal           | Variables, lists, strings, input/output | ✅ Done        |
-| 2  | Note-Taking App        | Write, append, read notes in files | Strings, file handling, input/output    | ✅ Done        |
-| 3  | Calculator App         | Arithmetic operations              | Numbers, operators, functions, OOP      | ✅ Done        |
-| 4  | Temperature Converter  | Convert Celsius ↔ Fahrenheit       | Numbers, input, conditionals            | ✅ Done        |
-| 5  | BMI Calculator         | Calculate and categorize BMI       | Numbers, conditionals                   | ✅ Done        |
-| 6  | Mad Libs Generator     | Fill story blanks with input       | Strings, input, concatenation           | ⬜ Coming Soon |
-| 7  | Coin Flip Simulator    | Simulate heads/tails               | Random, strings, conditionals           | ✅ Done        |
-| 8  | Dice Rolling Simulator | Simulate dice rolls                | Random, numbers                         | ⬜ Coming Soon |
-| 9  | Countdown Timer        | Timer countdown in seconds         | Loops, time module                      | ⬜ Coming Soon |
-| 10 | Simple Alarm Clock     | Alert user at set time             | Time module, loops, input               | ⬜ Coming Soon |
+> Note: Find every project in its respective folder. When making contributions, add or modify projects in the appropriate directory.
 
 ---
 
-## **2. Conditionals, Loops, and Control Flow (Beginner → Intermediate)**
+## Project Levels
 
-Projects teaching **decision-making, repetition, and flow control**.
+The levels indicate the approximate difficulty of a project, not how important the project is.
 
-| #  | Project Name           | Description                   | Concepts Covered                            | Status        |
-| -- | ---------------------- | ----------------------------- | ------------------------------------------- | ------------- |
-| 11 | Number Guessing Game   | Guess the random number       | Loops, conditionals, input, random          | ⬜ Coming Soon |
-| 12 | Simple Voting System   | Vote and tally results        | Loops, conditionals, dictionaries           | ⬜ Coming Soon |
-| 13 | Hangman Game           | Word guessing game            | Loops, strings, conditionals                | ⬜ Coming Soon |
-| 14 | Tic-Tac-Toe CLI        | Two-player board game         | Loops, lists, conditionals, functions       | ⬜ Coming Soon |
-| 15 | Mad Lib Quiz           | Interactive story + questions | Loops, strings, conditionals                | ⬜ Coming Soon |
-| 16 | Grade Calculator       | Calculate GPA or grades       | Loops, conditionals, input                  | ⬜ Coming Soon |
-| 17 | Expense Tracker        | Track income/expenses         | Loops, dictionaries, conditionals, file I/O | ⬜ Coming Soon |
-| 18 | Flashcard Learning App | Create and review flashcards  | Loops, dictionaries, lists, input           | ⬜ Coming Soon |
+| Level | Description |
+| ----- | ----------- |
+| **1** | Beginner — basic syntax, variables, input/output, simple calculations, and straightforward logic |
+| **2** | Beginner+ — conditionals, loops, collections, and simple problem-solving |
+| **3** | Intermediate — functions, modularity, file handling, structured programs, and larger logic |
+| **4** | Intermediate+ — OOP, persistence, multiple components, and more complex program structure |
+| **5** | Advanced — APIs, authentication, external services, and more complex problem-solving |
 
----
-
-## **3. Functions and Modular Programming (Intermediate)**
-
-Projects emphasizing **function creation, reusable code, and modularity**.
-
-| #  | Project Name           | Description                        | Concepts Covered                    | Status        |
-| -- | ---------------------- | ---------------------------------- | ----------------------------------- | ------------- |
-| 19 | File Organizer         | Organize files by type             | Functions, os module, file handling | ⬜ Coming Soon |
-| 20 | Markdown Notes Manager | Manage markdown notes              | Functions, file handling, input     | ⬜ Coming Soon |
-| 21 | Stopwatch              | Start/stop timer with elapsed time | Functions, loops, time module       | ⬜ Coming Soon |
-| 22 | Contact Book           | Save, search, delete contacts      | Functions, dictionaries, file I/O   | ⬜ Coming Soon |
-| 23 | CSV Data Analyzer      | Analyze CSV files                  | Functions, csv module, lists        | ⬜ Coming Soon |
-| 24 | Poll System            | Vote and display percentages       | Functions, dictionaries, loops      | ⬜ Coming Soon |
+A project may cover concepts from multiple levels, but the assigned level represents the **overall difficulty of building the project**.
 
 ---
 
-## **4. Object-Oriented Programming (Intermediate → Advanced)**
+## **1. Variables, Data Types, and Basic I/O (Level 1)**
 
-Projects focusing on **classes, objects, inheritance, encapsulation, and OOP design**.
+These projects focus on understanding Python variables, numbers, strings, lists, dictionaries, sets, user input, and basic program structure.
 
-| #  | Project Name              | Description                                | Concepts Covered                         | Status        |
-| -- | ------------------------- | ------------------------------------------ | ---------------------------------------- | ------------- |
-| 25 | Bank System               | CLI banking with accounts and transactions | Classes, objects, methods, file handling | ⬜ Coming Soon |
-| 26 | Registration System       | Collect user info and display table        | Classes, lists, methods                  | ✅ Done        |
-| 27 | Calculator App with OOP   | Modular arithmetic calculator              | Classes, methods, OOP                    | ✅ Done        |
-| 28 | Library Management System | Manage books in library                    | Classes, objects, lists, file I/O        | ⬜ Coming Soon |
-| 29 | Recipe Manager            | Add, search, view recipes                  | Classes, objects, file handling          | ⬜ Coming Soon |
-| 30 | Habit Tracker             | Track habits and progress                  | Classes, objects, dictionaries           | ⬜ Coming Soon |
-| 31 | ATM Simulator             | Account management, deposits, withdrawals  | Classes, objects, methods                | ⬜ Coming Soon |
-
----
-
-## **5. File Handling, Data Persistence, and Databases (Intermediate → Advanced)**
-
-Projects emphasizing **reading/writing files, CSV, JSON, and SQLite**.
-
-| #  | Project Name            | Description                  | Concepts Covered               | Status        |
-| -- | ----------------------- | ---------------------------- | ------------------------------ | ------------- |
-| 32 | Note-Taking App         | Local storage using files    | File I/O, text files           | ✅ Done        |
-| 33 | CSV Analyzer            | Analyze CSV files            | csv module, file handling      | ⬜ Coming Soon |
-| 34 | Inventory Management    | Track stock, save to file    | File I/O, dictionaries, lists  | ⬜ Coming Soon |
-| 35 | Blog CMS CLI            | Create, edit, delete posts   | File handling, OOP             | ⬜ Coming Soon |
-| 36 | Password Manager        | Generate and store passwords | File handling, strings, random | ✅ Done        |
-| 37 | Personal Budget Planner | Monthly expense tracking     | File I/O, dictionaries         | ⬜ Coming Soon |
+| # | Project Name | Description | Concepts Covered | Level | Status |
+| -- | ---------------------- | ---------------------------------- | --------------------------------------- | :---: | ------------- |
+| 1 | Todo List App | Manage tasks in terminal | Variables, lists, strings, input/output | 2 | Done |
+| 2 | Note-Taking App | Write, append, and read notes in files | Strings, file handling, input/output | 3 | Done |
+| 3 | Calculator App | Perform arithmetic operations | Numbers, operators, functions | 1 | Done |
+| 4 | Temperature Converter | Convert Celsius ↔ Fahrenheit | Numbers, input, conditionals | 1 | Done |
+| 5 | BMI Calculator | Calculate and categorize BMI | Numbers, conditionals | 1 | Done |
+| 6 | Mad Libs Generator | Fill story blanks with input | Strings, input, concatenation | 1 | Coming Soon |
+| 7 | Coin Flip Simulator | Simulate heads/tails | Random, strings, conditionals | 1 | Done |
+| 8 | Dice Rolling Simulator | Simulate dice rolls | Random, numbers | 1 | Coming Soon |
+| 9 | Countdown Timer | Timer countdown in seconds | Loops, time module | 2 | Coming Soon |
+| 10 | Simple Alarm Clock | Alert user at a set time | Time module, loops, input | 2 | Coming Soon |
 
 ---
 
-## **6. Modules, Packages, and Standard Library (Intermediate → Advanced)**
+## **2. Conditionals, Loops, and Control Flow (Level 2)**
 
-Projects that use **Python modules**, `os`, `sys`, `time`, `random`, `math`, `csv`, `json`, and others.
+Projects focused on **decision-making, repetition, program flow, and basic problem-solving**.
 
-| #  | Project Name        | Description            | Concepts Covered             | Status        |
-| -- | ------------------- | ---------------------- | ---------------------------- | ------------- |
-| 38 | Dice Roller         | Simulate dice rolls    | random, loops, input         | ⬜ Coming Soon |
-| 39 | Coin Flip Simulator | Simulate coin toss     | random, strings, input       | ⬜ Coming Soon |
-| 40 | Countdown Timer     | Countdown with sleep   | time, loops                  | ⬜ Coming Soon |
-| 41 | Alarm Clock         | Time alerts            | time, loops                  | ⬜ Coming Soon |
-| 42 | CLI Weather App     | Get weather via API    | requests module, json        | ⬜ Coming Soon |
-| 43 | CLI News Reader     | Read news from RSS/API | requests, xml/json           | ⬜ Coming Soon |
-| 44 | Stock Price Checker | Fetch stock data       | requests, json, ASCII output | ⬜ Coming Soon |
-| 45 | CLI Email Sender    | Send emails via SMTP   | smtplib, input, string       | ⬜ Coming Soon |
-
----
-
-## **7. APIs, Web Requests, and JSON (Advanced)**
-
-Projects integrating **external APIs** for real-world experience.
-
-| #  | Project Name                 | Description                      | Concepts Covered               | Status        |
-| -- | ---------------------------- | -------------------------------- | ------------------------------ | ------------- |
-| 46 | Movie Database CLI           | Search movies via API            | requests, json, OOP            | ⬜ Coming Soon |
-| 47 | CLI Twitter Client           | Read/post tweets via API         | requests, json, input          | ⬜ Coming Soon |
-| 48 | CLI Spotify Playlist Manager | Manage playlists via Spotify API | requests, json, authentication | ⬜ Coming Soon |
-| 49 | Weather CLI App              | Fetch live weather               | requests, JSON parsing         | ⬜ Coming Soon |
-| 50 | News CLI App                 | Display latest news              | requests, JSON, loops          | ⬜ Coming Soon |
+| # | Project Name | Description | Concepts Covered | Level | Status |
+| -- | ---------------------- | ----------------------------- | ------------------------------------------- | :---: | ------------- |
+| 11 | Number Guessing Game | Guess the random number | Loops, conditionals, input, random | 2 | Coming Soon |
+| 12 | Simple Voting System | Vote and tally results | Loops, conditionals, dictionaries | 2 | Coming Soon |
+| 13 | Hangman Game | Word guessing game | Loops, strings, conditionals | 3 | Coming Soon |
+| 14 | Tic-Tac-Toe CLI | Two-player board game | Loops, lists, conditionals, functions | 3 | Coming Soon |
+| 15 | Mad Lib Quiz | Interactive story + questions | Loops, strings, conditionals | 2 | Coming Soon |
+| 16 | Grade Calculator | Calculate GPA or grades | Loops, conditionals, input | 2 | Coming Soon |
+| 17 | Expense Tracker | Track income and expenses | Loops, dictionaries, conditionals, file I/O | 3 | Coming Soon |
+| 18 | Flashcard Learning App | Create and review flashcards | Loops, dictionaries, lists, input | 3 | Coming Soon |
 
 ---
 
-## **8. Games and Problem Solving (All Levels)**
+## **3. Functions and Modular Programming (Level 3)**
 
-Projects for **algorithmic thinking, loops, and logic building**.
+Projects emphasizing **function creation, reusable code, modularity, and organizing programs into logical components**.
 
-| #  | Project Name           | Description                      | Concepts Covered                         | Status        |
-| -- | ---------------------- | -------------------------------- | ---------------------------------------- | ------------- |
-| 51 | Hangman Game           | Guess the word                   | Loops, strings, conditionals             | ⬜ Coming Soon |
-| 52 | Tic-Tac-Toe            | Two-player CLI game              | Loops, lists, functions                  | ⬜ Coming Soon |
-| 53 | Chess/Checkers CLI     | Simplified board game            | Lists, loops, OOP                        | ⬜ Coming Soon |
-| 54 | Text Adventure Game    | Interactive story with inventory | Loops, conditionals, dictionaries        | ⬜ Coming Soon |
-| 55 | Quiz System            | Multiple-choice quiz             | Loops, input, conditionals, dictionaries | ⬜ Coming Soon |
-| 56 | Pomodoro Timer         | Focused work sessions            | Loops, time module                       | ⬜ Coming Soon |
-| 57 | Random Quote Generator | Display quotes randomly          | Lists, random, file I/O                  | ⬜ Coming Soon |
-| 58 | File Encryption Tool   | Encrypt/decrypt files            | Strings, file I/O, functions             | ⬜ Coming Soon |
-| 59 | CLI Poll System        | Voting with percentages          | Dictionaries, loops                      | ⬜ Coming Soon |
-| 60 | Expense Splitter       | Split bills among friends        | Dictionaries, loops, math                | ⬜ Coming Soon |
-| 61 | Habit Tracker          | Track habits                     | Dictionaries, file I/O, loops            | ⬜ Coming Soon |
-| 62 | Registration System    | Collect and display users        | Lists, dictionaries, classes             | ✅ Done        |
+| # | Project Name | Description | Concepts Covered | Level | Status |
+| -- | ---------------------- | ---------------------------------- | ----------------------------------- | :---: | ------------- |
+| 19 | File Organizer | Organize files by type | Functions, os module, file handling | 3 | Coming Soon |
+| 20 | Markdown Notes Manager | Manage markdown notes | Functions, file handling, input | 3 | Coming Soon |
+| 21 | Stopwatch | Start/stop timer with elapsed time | Functions, loops, time module | 2 | Coming Soon |
+| 22 | Contact Book | Save, search, delete contacts | Functions, dictionaries, file I/O | 3 | Coming Soon |
+| 23 | CSV Data Analyzer | Analyze CSV files | Functions, csv module, lists | 3 | Coming Soon |
+| 24 | Poll System | Vote and display percentages | Functions, dictionaries, loops | 3 | Coming Soon |
+
+---
+
+## **4. Object-Oriented Programming (Level 4)**
+
+Projects focusing on **classes, objects, methods, encapsulation, and applying OOP to practical programs**.
+
+| # | Project Name | Description | Concepts Covered | Level | Status |
+| -- | ------------------------- | ------------------------------------------ | ---------------------------------------- | :---: | ------------- |
+| 25 | Bank System | CLI banking with accounts and transactions | Classes, objects, methods, file handling | 4 | Coming Soon |
+| 26 | Registration System | Collect user info and display table | Classes, lists, methods | 3 | Done |
+| 27 | Calculator App with OOP | Modular arithmetic calculator | Classes, methods, OOP | 3 | Done |
+| 28 | Library Management System | Manage books in a library | Classes, objects, lists, file I/O | 4 | Coming Soon |
+| 29 | Recipe Manager | Add, search, and view recipes | Classes, objects, file handling | 4 | Coming Soon |
+| 30 | Habit Tracker | Track habits and progress | Classes, objects, dictionaries | 4 | Coming Soon |
+| 31 | ATM Simulator | Account management, deposits, withdrawals | Classes, objects, methods | 4 | Coming Soon |
+
+---
+
+## **5. File Handling, Data Persistence, and Databases (Level 3–4)**
+
+Projects emphasizing **reading and writing data, persistence, CSV, JSON, and eventually databases**.
+
+| # | Project Name | Description | Concepts Covered | Level | Status |
+| -- | ----------------------- | ---------------------------- | ------------------------------ | :---: | ------------- |
+| 32 | Note-Taking App | Local storage using files | File I/O, text files | 2 | Done |
+| 33 | CSV Analyzer | Analyze CSV files | csv module, file handling | 3 | Coming Soon |
+| 34 | Inventory Management | Track stock and save data | File I/O, dictionaries, lists | 3 | Coming Soon |
+| 35 | Blog CMS CLI | Create, edit, and delete posts | File handling, OOP | 4 | Coming Soon |
+| 36 | Password Manager | Generate and store passwords | File handling, strings, random | 3 | Done |
+| 37 | Personal Budget Planner | Monthly expense tracking | File I/O, dictionaries | 3 | Coming Soon |
+
+---
+
+## **6. Modules, Packages, and Standard Library (Level 2–5)**
+
+Projects that make practical use of Python's **standard library and external modules**, including `os`, `sys`, `time`, `random`, `math`, `csv`, `json`, and `requests`.
+
+| # | Project Name | Description | Concepts Covered | Level | Status |
+| -- | ------------------- | ---------------------------- | ---------------------------- | :---: | ------------- |
+| 38 | Dice Roller | Simulate dice rolls | random, loops, input | 1 | Coming Soon |
+| 39 | Coin Flip Simulator | Simulate coin toss | random, strings, input | 1 | Coming Soon |
+| 40 | Countdown Timer | Countdown with sleep | time, loops | 2 | Coming Soon |
+| 41 | Alarm Clock | Time alerts | time, loops | 2 | Coming Soon |
+| 42 | CLI Weather App | Get weather via API | requests, JSON | 5 | Coming Soon |
+| 43 | CLI News Reader | Read news from RSS/API | requests, XML/JSON | 5 | Coming Soon |
+| 44 | Stock Price Checker | Fetch stock data | requests, JSON, terminal output | 5 | Coming Soon |
+| 45 | CLI Email Sender | Send emails via SMTP | smtplib, input, strings | 4 | Coming Soon |
+
+---
+
+## **7. APIs, Web Requests, and JSON (Level 5)**
+
+Projects integrating **external APIs, HTTP requests, JSON data, and authentication** for real-world programming experience.
+
+| # | Project Name | Description | Concepts Covered | Level | Status |
+| -- | ---------------------------- | -------------------------------- | -------------------------------------- | :---: | ------------- |
+| 46 | Movie Database CLI | Search movies via API | requests, JSON, OOP | 5 | Coming Soon |
+| 47 | CLI Social Media Client | Interact with a social media API | requests, JSON, input, authentication | 5 | Coming Soon |
+| 48 | CLI Spotify Playlist Manager | Manage playlists through an API | requests, JSON, authentication | 5 | Coming Soon |
+| 49 | Weather CLI App | Fetch live weather | requests, JSON parsing | 5 | Coming Soon |
+| 50 | News CLI App | Display latest news | requests, JSON, loops | 5 | Coming Soon |
+
+---
+
+## **8. Algorithms and Problem Solving (Levels 2–5)**
+
+Projects and exercises focused on **algorithmic thinking, data structures, searching, sorting, logic, and problem-solving**.
+
+The repository also contains a dedicated `Algorithms` directory for algorithm implementations such as **linear search, binary search, and sorting algorithms**.
+
+| # | Project Name | Description | Concepts Covered | Level | Status |
+| -- | ---------------------- | -------------------------------- | ----------------------------------------- | :---: | ------------- |
+| 51 | Hangman Game | Guess the word | Loops, strings, conditionals | 3 | Coming Soon |
+| 52 | Tic-Tac-Toe | Two-player CLI game | Loops, lists, functions | 3 | Coming Soon |
+| 53 | Chess/Checkers CLI | Simplified board game | Lists, loops, OOP | 5 | Coming Soon |
+| 54 | Text Adventure Game | Interactive story with inventory | Loops, conditionals, dictionaries | 3 | Coming Soon |
+| 55 | Quiz System | Multiple-choice quiz | Loops, input, conditionals, dictionaries | 2 | Coming Soon |
+| 56 | Pomodoro Timer | Focused work sessions | Loops, time module | 2 | Coming Soon |
+| 57 | Random Quote Generator | Display quotes randomly | Lists, random, file I/O | 2 | Coming Soon |
+| 58 | File Encryption Tool | Encrypt/decrypt files | Strings, file I/O, functions | 4 | Coming Soon |
+| 59 | CLI Poll System | Voting with percentages | Dictionaries, loops | 2 | Coming Soon |
+| 60 | Expense Splitter | Split bills among friends | Dictionaries, loops, math | 2 | Coming Soon |
+| 61 | Habit Tracker | Track habits | Dictionaries, file I/O, loops | 3 | Coming Soon |
+| 62 | Registration System | Collect and display users | Lists, dictionaries, classes | 3 | Done |
+
+---
+
+## **Other Projects**
+
+The repository also contains smaller experiments and projects that do not fit neatly into one of the concept groups above.
+
+### Algorithms
+
+Algorithm implementations and experiments:
+
+- Linear Search
+- Binary Search
+- Sorting algorithms
+- Future algorithm and data-structure implementations
+
+### API / Web Framework Experiments
+
+The `AOB` directory contains experiments comparing Python web frameworks and application performance, including:
+
+- Flask
+- FastAPI
+- Sanic
+- Basic speed/performance testing
+
+### Data Visualization
+
+The repository includes Python data visualization experiments using **Matplotlib**, including generating and plotting different types of data.
+
+### Small Projects
+
+Smaller standalone experiments are kept in the `small_projects` directory.
 
 ---
 
@@ -189,7 +243,3 @@ Built with ❤️ for learning Python fundamentals **through practical CLI proje
 ---
 
 ## **Happy Coding!**
-
-
-
-
