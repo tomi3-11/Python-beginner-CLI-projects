@@ -1,4 +1,5 @@
 # Simple Age Calculator 
+from datetime import date
 
 """
 ask for user inputs
@@ -8,8 +9,11 @@ return the age.
 
 """
 
-user_age = int(input("Enter youe age: "))
+# Get input from the user
+user_age = int(input("Enter your birth year: "))
 
-age = 2025 - user_age
+# Calculate the Age
+age = date.today().year - user_age
 
+# print the age
 print(age)
